@@ -1,0 +1,51 @@
+ body {
+            font-family: serif;
+        }
+
+        h1 {
+            color: #f3ad3c;
+        }
+
+        .add-stu-btn {
+            border-radius: 1.2rem;
+            background-color: #f3ad3c;
+
+        }
+
+        .add-stu-btn:hover {
+            background-color: #f2a120;
+            box-shadow: inset 8px 8px 6px #f54848;
+            transition: box-shadow 0.5s ease-in-out;
+
+        }
+
+        .responsive-table {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table,
+        th,
+        tr,
+        td {
+            border-bottom: 1px solid gray;
+
+        }
+
+        td {
+            color: rgb(190, 185, 185);
+        }
+
+        table tr td,
+        table tr th {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        input:focus {
+            box-shadow: none !important;
+        }
